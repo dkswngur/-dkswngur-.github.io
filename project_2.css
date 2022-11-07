@@ -1,0 +1,482 @@
+body {background-color: black;}
+
+.mainpage {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sentence_1 {
+    color:white;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+}
+
+#word1 {color: rgb(0, 227, 30);}
+
+.sentence_2 {
+    color:white;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+}
+
+#words {
+    text-shadow:0 1px 25px red;
+    color: rgb(0, 227, 30);
+}
+
+.sentence_3 {
+    color:white;
+    font-family: 'Play', sans-serif;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+#hyperlink1{color: rgb(0, 227, 30);}
+
+.row, .col {
+    font-family: 'Play', sans-serif;
+    font-size: 1.2em;
+    line-height: 0.9em;
+    padding: 0;
+    margin: 0;
+    margin-top:20px;
+    color: rgb(0, 227, 30);
+}
+
+.row {
+    display: column;
+    flex-direction: row;
+}
+
+.col {
+    flex: 1;
+    padding: .2em;
+    margin: .8em;
+    text-align: center;
+}
+
+#col1 {
+    text-align: left;
+    position: relative;
+    font-size: 25px;
+    animation: col1 2s infinite alternate;
+}
+
+.poem_phrase {
+    display: none;
+    position: relative;
+}
+
+#col2:hover + .poem_phrase {
+    display:block;
+    position: absolute;
+    color:red;
+    font-size: 30px;
+    line-height: 2em;
+    margin-left: 478px;
+    text-shadow:0 3px 10px red;
+    opacity: 0.9;
+}
+
+#col2 {
+    text-shadow:0 1px 25px red;
+}
+
+#col3 {
+    text-align: right;
+    font-size: 24px;
+}
+
+#col4 {
+    font-size: 16px;
+}
+
+#col5 {
+    position: relative;
+    animation: col5 3s infinite;
+}
+
+#col7 {
+    position: relative;
+    animation: col7 2s infinite alternate;
+}
+
+#col8 {
+    text-align: right;
+    font-size: 25px;
+}
+
+#col9 {
+    text-align: left;
+}
+
+#col10 {
+    position: relative;
+    font-size: 18px;
+    animation: col10 0.82s infinite alternate;
+}
+
+#col12 {
+    text-align: left;
+    font-size: 21px;
+}
+
+#col14 {
+    position: relative;
+    animation: col14 2s infinite alternate;
+}
+
+.poem_phrase2 {
+    display: none;
+    position: relative;
+}
+
+#col13:hover + .poem_phrase2 {
+    display:block;
+    position: absolute;
+    color:red;
+    font-size: 30px;
+    line-height: 2em;
+    margin-left: 960px;
+    margin-top:10px;
+    text-shadow:0 3px 10px red;
+    opacity: 0.9;
+}
+
+#col13 {
+    text-shadow:0 1px 25px red;
+}
+
+#col15 {
+    position:relative;
+    animation: col15 2.5s infinite alternate;
+    animation-timing-function: linear;
+}
+
+#col16 {
+    text-align: right;
+    font-size: 18px;
+}
+
+#col17 {
+    text-align: right;
+}
+
+#col18 {
+    text-align: left;
+    font-size: 28px;
+}
+
+#col19 {
+    text-align: left;
+    position: relative;
+    animation: col19 2s infinite alternate;
+}
+
+#col20 {
+    text-align: right;
+}
+
+#col21 {
+    text-align: left;
+    font-size: 15px;
+}
+
+#col22 {
+    text-align: right;
+    font-size: 20px;
+}
+
+#col23 {
+    text-align: right;
+    font-size: 19px;
+}
+
+#col24 {
+    text-align: left;
+    font-size: 20px;
+}
+
+.poem_phrase3 {
+    display: none;
+    position: relative;
+}
+
+#col25:hover + .poem_phrase3 {
+    display:block;
+    position: absolute;
+    color:red;
+    font-size: 30px;
+    line-height: 2em;
+    margin-left: 180px;
+    margin-top:15px;
+    text-shadow:0 3px 10px red;
+    opacity: 0.9;
+}
+
+#col25 {
+    text-shadow:0 1px 25px red;
+}
+
+#col26 {
+    text-align: left;
+}
+
+#col27 {
+    text-align: left;
+    font-size: 24px;
+}
+
+#col28:hover {
+    color: rgb(0, 227, 30);
+    text-shadow:0 3px 8px greenyellow;
+}
+
+#col29 {
+    text-align: left;
+    font-size: 25px;
+}
+
+#col30 {
+    position: relative;
+    animation: col30 1s infinite alternate;
+}
+
+#col31 {
+    text-align: left;
+    font-size: 15px;
+}
+
+#col32 {
+    text-align: right;
+    position:relative;
+    animation: col32 2s infinite alternate;
+}
+
+#col33 {
+    text-align: right;
+    font-size: 26px;
+}
+
+#col36 {
+    font-size: 19px;
+}
+
+#col37 {
+    text-align: right;
+    font-size: 19px;
+}
+
+#col38 {
+    text-align: right;
+}
+
+#col39 {
+    text-align: right;
+}
+
+#col40 {
+    font-size: 16px;
+    margin-top: 7px;
+}
+
+#col41 {
+    text-align: left;
+    font-size: 20px;
+    margin-top: 0.125px;
+}
+
+@media screen and (min-width: 800px){
+    .row{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+@keyframes col1 {
+    0% {
+        top:0px;
+        left:0px;
+        bottom:0px;
+    }
+    25% {
+        top:20px;
+        left:10px;
+        bottom:0px;
+    }
+    30%{
+        top:0px;
+        left:20px;
+        bottom:10px;
+    }
+    50%{
+        top:30px;
+        left:30px;
+        bottom:0px;
+    }
+    60%{
+        top:0px;
+        left:40px;
+        bottom:20px;
+    }
+    70%{
+        top:40px;
+        left:50px;
+        bottom:0px;
+    }
+    90%{
+        top:0px;
+        left:60px;
+        bottom:20px;
+    }
+    100%{
+        top:50px;
+        left:120px;
+        bottom:0px;
+    }
+}
+
+@keyframes col7 {
+    0% {
+        bottom:0px;
+        right:0px;
+    }
+    50% {
+        bottom:30px;
+        right:30px;
+    }
+    70% {
+        bottom:0px;
+        right:50px;
+    }
+    100% {
+        bottom:50px;
+        right:60px;
+    }
+}
+
+@keyframes col10 {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+      }
+      
+      20%, 80% {
+        transform: translate3d(2px, 0, 0);
+        color: rgb(0, 227, 30);
+      }
+    
+      30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+        color:red;
+      }
+    
+      40%, 60% {
+        transform: translate3d(4px, 0, 0);
+        color: rgb(0, 227, 30);
+      }
+}
+
+@keyframes col5 {
+    0% {
+        left:0px;
+        top: 0px;
+        transform: rotate(0deg);
+    }
+    60%{
+        left:70px;
+        top:0px;
+        transform: rotate(0deg);
+    }
+    75%{
+        left:269px;
+        top:191px;
+        transform: rotate(20deg);
+    }
+    100%{
+        left:267px;
+        top:182px;
+        transform: rotate(-20deg);
+    }
+}
+
+@keyframes col14 {
+    0% { transform: rotate(0deg); }
+    85% { transform: rotate(-10deg); }
+    95% { transform: rotate(10deg); }
+    100% { transform: rotate(0deg); }
+}
+
+@keyframes col19 {
+    0% {
+        left:0px;
+        top:0px;
+    }
+    50% {
+        left:150px;
+        top:0px;
+   
+    }
+    70% {
+        left:150px;
+        top:280px;
+    
+    }
+    100% {
+        left:0px;
+        top:400px;
+    }
+}
+
+@keyframes col32 {
+    0% {
+        right:0px;
+        bottom:0px;
+    }
+    50% {
+        right:150px;
+        bottom:0px;
+   
+    }
+    70% {
+        right:150px;
+        bottom:280px;
+    
+    }
+    100% {
+        right:0px;
+        bottom:400px;
+    }
+}
+
+@keyframes col15 {
+    0% {
+        left:0px;
+        top:0px;
+   
+    }
+    50% {
+        left:200px;
+        top:650px;
+    
+    }
+    100% {
+        left:400px;
+        top:0px;
+  
+    }
+}
+
+@keyframes col30 {
+    0% {
+    transform: rotate(0deg);  
+    }
+    100% {
+    transform: rotate(360deg);
+    }
+}
+
