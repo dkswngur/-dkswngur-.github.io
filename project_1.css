@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mainpage {
+    text-align: right;
+    margin-top: 25px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-top: 200px;
+}
+.box{
+    position: relative;
+}
+
+.box_E {
+    margin-left: 40px;
+}
+
+.box video{
+    position: absolute;
+    top:0;
+    left:0;
+    object-fit: cover;
+}
+
+.full_set{
+    display:flex;
+    margin-top: 500px;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    margin-right: 100px;
+}
